@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>Coder-Forge</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -28,7 +28,6 @@
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
@@ -47,24 +46,30 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
+                    <a href="#resourcesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Resources</a>
+                    <ul class="collapse list-unstyled" id="resourcesSubmenu">
+                        <li>          
+                            <a href="https://www.w3schools.com/">W3S</a>
                         </li>
                         <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
+                            <a href="https://www.tutorialspoint.com/">Tutorialspoint</a>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">Portfolio</a>
                 </li>
+
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contact Us</a>
+                    <ul class="collapse list-unstyled" id="contactSubmenu">
+                        <li>
+                            <a href="https://www.meetup.com/Dublin-Coder-Forge/">Meetup</a>
+                        </li>
+                        <li>
+                            <a href="https://coderforgeworkspace.slack.com/">Slack</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
